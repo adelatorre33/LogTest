@@ -13,5 +13,10 @@ namespace Request_Login
         {
 
         }
+
+        protected void Submit_Click(object sender, EventArgs e)
+        {
+            Message.Text = Display.Text + " , Welcome to Microsoft Visual Studio!";
+        }
     }
 }
